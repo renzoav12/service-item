@@ -7,7 +7,7 @@ import com.springboot.app.commons.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.formacionbdi.springboot.app.item.clientes.ProductClientRest;
+import com.formacionbdi.springboot.app.item.clients.ProductClientRest;
 import com.formacionbdi.springboot.app.item.models.Item;
 
 @Service("serviceFeign")
