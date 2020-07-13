@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.item.clients;
+package com.springboot.app.item.clients;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.item.models;
+package com.springboot.app.item.models;
 
 import com.springboot.app.commons.model.Product;
 

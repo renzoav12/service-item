@@ -1,14 +1,13 @@
-package com.formacionbdi.springboot.app.item.models.service;
+package com.springboot.app.item.models.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 import com.springboot.app.commons.model.Product;
+import com.springboot.app.item.clients.ProductClientRest;
+import com.springboot.app.item.models.Item;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.formacionbdi.springboot.app.item.clients.ProductClientRest;
-import com.formacionbdi.springboot.app.item.models.Item;
 
 @Service("serviceFeign")
 public class ItemServiceFeign implements ItemService {
